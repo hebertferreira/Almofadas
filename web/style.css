@@ -1,0 +1,100 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+#div-dados{
+    height: 350px;
+    width: 350px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 36%;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+    border-bottom-style: double;
+}
+
+#div-dados blockquote{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+
+#div-dados h4{
+    padding-left: 19%;
+}
+
+
+#div-dados p{
+    text-align: justify;
+}
+form{
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+.li-atributos{
+    margin-top: 3%;
+}
+
+#lista-almofadas{
+    display: inline-table;
+    margin-left: 20px;
+    width: 250px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#lista-almofadas li{
+    padding-top: 3%;
+    display: list-item;
+    margin-left: 4%;
+    font-family: arial;
+    color: yellow;      
+}
+nav{
+    height: 30px;
+    background-color: black;
+    margin:auto;
+    border-radius: 8px;    
+}
+
+.li-menu{
+    font-family: courier;
+    display: inline-flex;
+    padding-left: 7%;
+    font-weight: bold;
+    font-size: 18px; 
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.botao-excluir{
+    margin-left: 25%;
+    border-radius: 3px;
+    width: 75px;
+    height: 25px;
+    font-family: courier;
+    font-weight: bold;
+}
+
+.botao-padrao{
+    border-radius: 3px;
+    width: 150px;
+    height: 25px;
+    font-family: courier;
+    font-weight: bold;
+}
+#radio-confirmacao{
+    visibility: hidden;
+}   
